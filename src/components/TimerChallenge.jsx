@@ -43,7 +43,7 @@ export const TimerChallenge = ({ title, targetTime }) => {
         </p>
         <p>
           <button onClick={timerIsActive ? handleStop : handleStart}>
-            {timerIsActive ? "Stop" : "Stop"} Challenge
+            {timerIsActive ? "Stop" : "Start"} Challenge
           </button>
         </p>
         <p className={timerIsActive ? "active" : undefined}>
